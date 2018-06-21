@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+{% block title %}Hello{% endblock %}
+{% block main %}
+<div class="">
+	<p>Hello {{ name }}!</p>
+
+	<p> render this variable: {{ some_variable | default('variable not set')}}</p>
+</div>
+{% endblock %}
